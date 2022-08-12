@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumusta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="center">
+        <div class ="js-clock clock">
+            <h3 class="clock">00:00:00</h3>
+        </div>
+        <form class="loginForm">
+            <input 
+            class="loginInput"
+            required
+            maxlength="30"
+            type="text" 
+            placeholder="Isulat ang iyong pangalan"
+            />
+            <input type="submit" value="" />
+        </form>
+        <h4 class="greeting"></h4>
+        <div>
+            <form class="todoForm">
+                <input class="todoInput" type="text" placeholder="Ilista ang mga gawain" required />
+            </form>
+            <ul class="todoList"></ul>
+        </div>
+    </section>
+
+    <div class="js-weather weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+
+</body>
+
+</html>

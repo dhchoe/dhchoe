@@ -1,0 +1,10 @@
+.clock {
+    font-size: 3em;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
